@@ -34,9 +34,9 @@ func main() {
 	for true {
 		saveToBuffer()
 		enter(kb)
-		time.Sleep(time.Microsecond)
+		time.Sleep(5 * time.Microsecond)
 		ctrlV(kb)
-		time.Sleep(time.Microsecond)
+		time.Sleep(5 * time.Microsecond)
 		enter(kb)
 		time.Sleep(timeSleep * time.Second)
 	}
